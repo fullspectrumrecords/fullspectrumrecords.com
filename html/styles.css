@@ -91,3 +91,33 @@ a:hover {
         width: 3.5rem;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #232323;
+        color: #ddd;
+    }
+
+    .logo g {
+        fill: #413e3e;
+        fill: #ddd;
+    }
+
+    a {
+        color: #00adef;
+    }
+
+    a:hover {
+        color: #eee;
+    }
+
+    .links .icon path {
+        fill: #00adef;
+    }
+
+    .links a:hover .icon path {
+        fill: #eee;
+    }
+
+}
